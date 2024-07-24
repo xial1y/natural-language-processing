@@ -51,22 +51,38 @@ The models are tested with new original reviews to evaluate its performance: <br
 7.  'What a rotten attempt at a comedy. Not a single joke lands, everyone acts annoying and loud, even kids won\'t like this!', <br>  
 8.   'Launching on Netflix was a brave move & I really appreciate being able to binge on episode after episode, of this exciting intelligent new drama.' <br>  
 
-When model 1 was fed new review data to evaluate, we get the following: <br>
-Model 1 Predictions: Review 1: 0.16 Review 2: 0.18 Review 3: 0.56 Review 4: 0.13 Review 5: 0.26 Review 6: 0.48 Review 7: 0.05 Review 8: 0.84
+Model 1 prediction for My Review:<br>  
+Review 1: 0.16 (negative review)  
+Review 2: 0.18 (negative review)  
+Review 3: 0.56 (positive review)   
+Review 4: 0.13 (negative review)  
+Review 5: 0.26 (positive review)  
+Review 6: 0.48 (positive review)  
+Review 7: 0.05 (negative review)  
+Review 8: 0.84 (positive review)  
 
-Model 1 has the highest accuracy and F1 score and overall the models prediction aligns with the sentiments of the review, assigning low prob for the negative sounding reviews and higher probabilities for the reviews that were actually positive. <br>
+Model 2 predictions for My Review:  <br>  
+Review 1: 0.17 (negative review)  
+Review 2: 0.08 (negative review)  
+Review 3: 0.51 (positive review)  
+Review 4: 0.14 (negative review)  
+Review 5: 0.23 (positive review)  
+Review 6: 0.44 (positive review)  
+Review 7: 0.02 (negative review)  
+Review 8: 0.91 (positive review)  
 
-Model 2: Accuracy: 0.87, F1 Score: 0.8, APS: 0.94, ROC AUC: 0.95
-Model 2 Predictions: Review 1: 0.17 Review 2: 0.08 Review 3: 0.51 Review 4: 0.14 Review 5: 0.23 Review 6: 0.44 Review 7: 0.02 Review 8: 0.91
+Model 3 predictions for My Reviews: 
+Review 1: 0.53 (positive review)  
+Review 2: 0.20 (positive review)  
+Review 3: 0.58 (positive review)  
+Review 4: 0.41 (positive review)  
+Review 5: 0.64 (positive review)  
+Review 6: 0.55 (positive review)  
+Review 7: 0.30 (neutral review)  
+Review 8: 0.78 (positive review)  
 
-Model 2 does not meet our project F1 score requirement of being at least 0.85, however its predictions for positive/negative reviews are relatively accurate. 
 
-Model 3: Accuracy: 0.85, F1 Score: 0.85, APS: 0.93, ROC AUC: 0.93
-Model 3 Predictions: Review 1: 0.53 Review 2: 0.20 Review 3: 0.58 Review 4: 0.41 Review 5: 0.64 Review 6: 0.55 Review 7: 0.30 Review 8: 0.78
-
-Model 3 meets the F1 score threshold of 0.85 and an accuracy score of 0.85. However, the predictions it generated for the reviews are much higher compare to the probabilities of the other 2 models, meaning model 3 tends to assign higher probability of the reviews being positive even to negative reviews.
-
-**Conclusion:** <br>  the best model that the Film Junky Union should use to detect negative reviews is Model 1, Logistic Regression model using NLTK and TF-IDF, it meets the criteria set by the team and performs relatively well when used to classify our own reviews.
+**Conclusion:** <br> The best model that the Film Junky Union should use to detect negative reviews is Model 1, a Logistic Regression model using NLTK and TF-IDF, it meets the metric criteria set by the team and performs relatively well when used to classify our own reviews.
 
 
 
