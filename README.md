@@ -82,7 +82,7 @@ Review 7: 0.30 (neutral review)
 Review 8: 0.78 (positive review)  
 
 
-**Conclusion:** <br> The best model that the Film Junky Union should use to detect negative reviews is Model 1, a Logistic Regression model using NLTK and TF-IDF, it meets the metric criteria set by the team and performs relatively well when used to classify our own reviews.
+**Conclusion:** <br> The best model that the Film Junky Union should use to detect negative reviews is Model 1, a Logistic Regression model using NLTK and TF-IDF, it meets the metric criteria set by the team of at least 0.85 and performs relatively well when used to classify the new reviews.
 
 
 
