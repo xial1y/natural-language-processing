@@ -41,6 +41,16 @@ ROC AUC: 0.93<br>
 
 **Results:** <br> 
 
+The models are tested with new original reviews to evaluate its performance: <br>  
+1.'I did not simply like it, not my kind of movie.', <br>  
+2.  'Well, I was bored and felt asleep in the middle of the movie.', <br>  
+3.  'I was really fascinated with the movie',     <br>  
+4.  'Even the actors looked really old and disinterested, and they got paid to be in the movie. What a soulless cash grab.', <br>  
+5.   'I didn\'t expect the reboot to be so good! Writers really cared about the source material', <br>  
+6.  'The movie had its upsides and downsides, but I feel like overall it\'s a decent flick. I could see myself going to see it again.', <br>  
+7.  'What a rotten attempt at a comedy. Not a single joke lands, everyone acts annoying and loud, even kids won\'t like this!', <br>  
+8.   'Launching on Netflix was a brave move & I really appreciate being able to binge on episode after episode, of this exciting intelligent new drama.' <br>  
+
 When model 1 was fed new review data to evaluate, we get the following: <br>
 Model 1 Predictions: Review 1: 0.16 Review 2: 0.18 Review 3: 0.56 Review 4: 0.13 Review 5: 0.26 Review 6: 0.48 Review 7: 0.05 Review 8: 0.84
 
