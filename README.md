@@ -71,7 +71,7 @@ Review 6: 0.44 (positive review)
 Review 7: 0.02 (negative review)  
 Review 8: 0.91 (positive review)  
 
-Model 3 predictions for My Reviews: 
+Model 3 predictions for My Reviews: <br> 
 Review 1: 0.53 (positive review)  
 Review 2: 0.20 (positive review)  
 Review 3: 0.58 (positive review)  
